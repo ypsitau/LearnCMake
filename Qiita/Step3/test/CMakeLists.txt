@@ -1,3 +1,3 @@
-add_executable(a.out main.cpp)
-# a.outをコンパイルする際にgreetingsをリンクする
+add_executable(a.out)
+target_sources(a.out PRIVATE main.cpp)
 target_link_libraries(a.out greetings)

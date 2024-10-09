@@ -1,5 +1,5 @@
-#include "hello.hpp"
-#include "good_morning.hpp"
+#include <hello.hpp>
+#include <good_morning.hpp>
 
 int main () {
     hello();
