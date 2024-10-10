@@ -1,7 +1,8 @@
 #ifndef CLASSB_H
 #define CLASSB_H
+#include "Common.h"
 
-class ClassB {
+class HOGELIB_DLLDECLARE ClassB {
 public:
 	ClassB() {}
 	void Func() const;
