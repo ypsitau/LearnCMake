@@ -1,7 +1,9 @@
-#include <hello.hpp>
-#include <good_morning.hpp>
+#include <ClassA.h>
+#include <ClassB.h>
 
-int main () {
-    hello();
-    good_morning();
+int main ()
+{
+    ClassA().Func();
+    ClassB().Func();
+    return 0;
 }
