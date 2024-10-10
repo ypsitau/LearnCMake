@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 
 project(HogeApp CXX)
 
-find_library(HogeLib REQUIRED PATHS C:/Users/ypsit/source/LearnCMake/find_library/HogeLib)
+#message(${PROJECT_SOURCE_DIR}/../HogeLib/build/src/Debug)
+#find_library(HogeLib REQUIRED PATHS ${PROJECT_SOURCE_DIR}/../HogeLib/build/src/Debug)
 
 add_subdirectory(src)
